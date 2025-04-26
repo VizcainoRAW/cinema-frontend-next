@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './page.module.css'
+import Link from 'next/link';
 
 const LoginPage: React.FC = () => {
   return (
@@ -7,6 +8,7 @@ const LoginPage: React.FC = () => {
       <h1 className={styles.title}>CINE</h1>
       <h2 className={styles.subtitle}>Login</h2>
       <div className={styles.form}>
+          <p className={styles.notes}>This is a demo, the login does not work Press <b>continue</b> to see the app</p>
         <input
           type="text"
           placeholder="Username"
@@ -17,9 +19,9 @@ const LoginPage: React.FC = () => {
           placeholder="Password"
           className={styles.input}
         />
-        <button className={styles.button}>
-          Submit
-        </button>
+          <Link href="/movies" className={styles.continueLink}>
+            Continue
+          </Link>
       </div>
     </div>
   )
