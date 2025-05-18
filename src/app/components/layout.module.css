@@ -1,0 +1,24 @@
+/* Assuming the color variables are defined in a file named loginPageColors.css */
+/* For example: */
+/* @import './loginPageColors.css'; */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Or adjust as needed */
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Add header specific styles here, e.g., background-color: var(--primary-color); */
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
