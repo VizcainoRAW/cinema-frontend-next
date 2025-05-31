@@ -6,6 +6,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-white: #FFFFFF;
+  --color-dark: #1F1F1F;
+  --color-green: #00FF47;
+  --color-dark-green: #27AE60;
+  --color-light-green: linear-gradient(40deg, #00FF47 0%, #27AE60 100%);
+  --color-darker-green: linear-gradient(40deg, #27AE60 0%, #00FF47 100%);
+  --color-gray: #595959;
 }
 
 @theme inline {
